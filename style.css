@@ -510,8 +510,8 @@ a{
 
 }
 #main-img-container{
-    width:200px;
-    height: 150px;
+    width:300px;
+    height: 200px;
     display:flex;
     padding-top:0px;
     margin-top:0px;
@@ -521,6 +521,8 @@ a{
   justify-content:center;
 } 
 #main-img img{
+  width:250px;
+  height: 200px;
     display:flex;
     justify-content:center;
     float:center;
@@ -574,9 +576,9 @@ a{
     height: 70vh;
     align-items:center;
     padding-bottom: 10px;
-    justify-content:space-around;
+    justify-content:space-evenly;
     margin-top: 0px;
-  gap:15px;
+   gap:15px;
 }
 .projects h2{
   padding-bottom: 0px;
